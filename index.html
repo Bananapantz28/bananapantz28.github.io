@@ -12,31 +12,47 @@
             }
             h6{
                 font-size: 25px;
-                color: brown;
+                color: rgb(218, 0, 0);
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 text-decoration: none;
+                font-weight: 400;
+            }
+            .padding{
+                padding-left: 250px;
+                padding-right: 250px;
+            }
+            #logo-pad{
+                padding-left: 62px;
+            }
+            .link{
+                font-weight: 700;
+                text-decoration: none;
+                color:brown;
             }
         </style>
     </head>
     <body>
         <!--Logo in top left-->
-        <a href="index.html"><img src="assets/logo.png" alt="logo" width="50px" style="position: absolute;"></a>
+        <a href="index.html"><img src="assets/logo.png" alt="logo" width="50px" style="position: absolute;" id="logo-pad"></a>
 
         <!--
         The context menu at the top of all .html files
         -->
         <center>
-            <h6>Home | <a href="test.html">Go to test.html</a></h6>
+            <h6>
+                Home | <a href="teasers.html" class="link">Teasers</a> | <a href="about.html" class="link">About (Coming Soon)</a>
+            </h6>
             <hr>
+
         </center>
+        <br><br>
 
         <!--Page Contents-->
 
-        <br><br>
         <center><h1>Welcome To Bananapantz' Website</h1></center>
         <br><br>
-        <h3>Who is Bananapantz?</h3>
-        <p>Bananapantz is a YouTuber/Animater that makes content for people of all ages. He posts mostly Minecraft content on his channel <i>Bananapantz</i> but also does other
+        <h3 class="padding">Who is Bananapantz?</h3>
+        <p class="padding">Bananapantz is a YouTuber/Animater that makes content for people of all ages. He posts mostly Minecraft content on his channel <i>Bananapantz</i> but also does other
         content like Super Mario Oddessy Speedruns. He also makes animations on his channel <i>Bananapantz Animates</i> There short little animations that he made himself but he
         commonly uses free online assets to make these animation videos.</p>
 
@@ -48,6 +64,10 @@
             <br><br>
             <h1>Latest Video | Bananapantz Animates</h1>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/z27L-HW7AH8?si=yfvD9J5CcuJOB6Uf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+            <a href="test.html">
+                <h4>HTML Test Portal</h4>
+            </a>
         </center>
     </body>
 </html>
