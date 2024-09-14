@@ -6,10 +6,12 @@
 
         <!--CSS Code-->
         <style>
-            h1,h3,p{
+            h1,h3,h5,p{
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: rgb(32, 54, 54);
             }
+
+            /*Context Menu Formating*/
             h6{
                 font-size: 25px;
                 color: rgb(218, 0, 0);
@@ -29,6 +31,18 @@
                 text-decoration: none;
                 color:brown;
             }
+
+            .gen-link{
+                font-size: 16px;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            /*End of Context Menu Formating*/
+
+            i{
+                text-shadow: 1px 1px #dddddd;
+            }
         </style>
     </head>
     <body>
@@ -40,7 +54,10 @@
         -->
         <center>
             <h6>
-                Home | <a href="teasers.html" class="link">Teasers</a> | <a href="about.html" class="link">About (Coming Soon)</a>
+                Home
+                | <a href="teasers.html" class="link">Teasers</a>
+                | <a href="wiki.html" class="link">Wiki</a>
+                | <a href="about-channels.html" class="link">About (Coming Soon)</a>
             </h6>
             <hr>
 
@@ -66,7 +83,7 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/z27L-HW7AH8?si=yfvD9J5CcuJOB6Uf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <a href="test.html">
-                <h4>HTML Test Portal</h4>
+                <h5 class="gen-link">HTML Test Portal</h5>
             </a>
         </center>
     </body>
