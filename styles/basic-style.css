@@ -1,0 +1,37 @@
+h1,h3,h5,p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(32, 54, 54);
+}
+
+/*Context Menu Formating*/
+h6{
+    font-size: 25px;
+    color: rgb(218, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 400;
+}
+.padding{
+    padding-left: 250px;
+    padding-right: 250px;
+}
+#logo-pad{
+    padding-left: 62px;
+}
+.link{
+    font-weight: 700;
+    text-decoration: none;
+    color:brown;
+}
+
+.gen-link{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+}
+/*End of Context Menu Formating*/
+
+i{
+    text-shadow: 1px 1px #dddddd;
+}
