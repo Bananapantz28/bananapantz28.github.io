@@ -1,13 +1,18 @@
-h1,h3,h5,p{
+body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h3,h5,p{
+
     color: rgb(32, 54, 54);
+}
+h1{
+    text-align: center;
 }
 
 /*Context Menu Formating*/
 h6{
     font-size: 25px;
     color: rgb(218, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-weight: 400;
 }
@@ -26,7 +31,6 @@ h6{
 
 .gen-link{
     font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     font-weight: 600;
 }
@@ -34,4 +38,35 @@ h6{
 
 i{
     text-shadow: 1px 1px #dddddd;
+}
+.center{
+    text-align: center;
+}
+.ex-padding{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+#ad{
+    position: absolute;
+    text-decoration: underline;
+    font-size: 13px;
+    text-align: center;
+    top: 260px;
+    left: 1550px;
+}
+
+.channel{
+    padding: 40px;
+}
+.channel-name{
+    font-size: 46px;
+    font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 20px;
+    left: 790px;
+}
+.channel-logo{
+    position: absolute;
+    left: 600px
 }
